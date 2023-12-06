@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+  Navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .me-auto .nav-link {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .me-auto .nav-link svg {
+      width: 23px; 
+      height: 22px; 
+      top: 1712.86px; 
+    }
+    .instagram-icon {
+        background: linear-gradient(135deg, #833AB4, #FD1D1D, #F77737, #FDCF60); 
+        padding: 8px; 
+        border-radius: 50%; 
+      }
+      
+      .instagram-icon svg {
+        fill: white; 
+      }
+      .navbar-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+  }
+
+  
+  

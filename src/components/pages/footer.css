@@ -1,0 +1,27 @@
+@media (max-width: 1366px) {
+    .text-center{
+        font-family: Outfit;
+font-size: 40px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+
+    }
+}
+
+@media (max-width:768px){
+.text-center{
+        font-family: Outfit;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 40px;
+    }
+    .text-center .trading{
+        color: #ff4d00;
+    }
+}

@@ -1,0 +1,499 @@
+body{
+    background-color: #191970; 
+}
+
+/* for the Desktop-view */
+
+@media (min-width: 1600px) {
+    .first_img img{
+        width: 100%;
+        height: auto;
+    }
+    .first_img h1{
+        margin-top: 44px;
+        color:#B1CFE3;
+        font-family: Outfit;
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 126px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .forex_academy {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+    .forex_academy img{
+        width: 639px;
+        height: 597px;
+        margin-top: 50px;
+        margin-left: -81px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+    .forex_academy p{
+        font-family: Outfit;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50.5px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #B1CFE3;
+        margin-left: 150px;
+    }
+    .our_principles{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .our_principles p{
+        width: 692px;
+        height: 475px;
+        padding-top: 100px;
+        font-family: Outfit;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50.5px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #B1CFE3;
+    }
+    .our_principles img{
+        width: 639px;
+        height: 597px;
+        margin-top: 50px;
+        margin-left: 150px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+    .helping_individuals{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .helping_individuals img{
+        width: 639px;
+        height: 597px;
+        margin-top: 50px;
+        margin-left: 120px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+
+    .helping_individuals p{
+        font-family: Outfit;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50.5px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #B1CFE3;
+        margin-left: 150px;
+        width: 594px;
+        height: 375px;
+        margin-top: 271px;
+    }
+    .passionate{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .passionate p{
+        width: 535px;
+        height: 471px;
+        margin-top: 100px;
+        font-family: Outfit;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50.5px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #B1CFE3;
+        margin-left: 130px;
+    }
+
+    .passionate img {
+        width: 639px;
+        height: 597px;
+        margin-top: 50px;
+        margin-left: 200px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        margin-bottom: 100px;
+    }
+    .our_mission h2 {
+        font-family: Outfit;
+        font-size: 87px;
+        font-weight: 700;
+        line-height: 87px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+    .our_mission p {
+        font-family: Outfit;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        border: 2px solid #C1C1DE; 
+        padding-top: 60px; 
+        border-radius: 30px;
+    }
+}
+/* for the ipad view */
+@media (max-width: 1366px){
+    .first_img img{
+        width: 1440px;
+        height: 730px;
+    }
+    .first_img h1{
+        margin-top: 40px;
+        color:#B1CFE3;
+        font-family: Outfit;
+        font-size: 100px;
+        font-weight: 700;
+        line-height: 126px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .forex_academy {
+        display: flex;
+        align-items: center;
+
+        
+    }
+    .forex_academy img{
+        width: 400px;
+        height: 300px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+    .forex_academy p{
+        width: 600px;
+        height: 431px;
+        font-family: Outfit;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40.4px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #B1CFE3;
+        margin-left: 20px;
+        margin-top: 200px;
+    }
+    .our_principles{
+        display: flex;
+        align-items: center;
+    }
+    .our_principles p{
+        width: 700px;
+        height: 475px;
+        font-family: Outfit;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40.4px;
+        letter-spacing: 0em;
+        color: #ffffff;
+        margin-top: 200px;
+    }
+    .our_principles img{
+        width: 350px;
+        height: 300px;
+        margin-top: -100px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+    .helping_individuals{
+        display: flex;
+        align-items: center;
+    }
+
+    .helping_individuals img{
+        width: 350px;
+        height: 300px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+
+    .helping_individuals p{
+        font-family: Outfit;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 50.4px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #c1c1de;
+        width: 594px;
+        height: 375px;
+        margin-left: 20px;
+    }
+    .passionate{
+        display: flex;
+        align-items: center;
+    }
+    .passionate p{
+        width: 535px;
+        height: 471px;
+        font-family: Outfit;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 50.4px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #B1CFE3;
+    }
+
+    .passionate img {
+        width: 350px;
+        height: 300px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        margin-bottom: 100px;
+        margin-left: 20px;
+    }
+    .our_mission h2 {
+        font-family: Outfit;
+        font-size: 87px;
+        font-weight: 700;
+        line-height: 87px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+    
+    .our_mission p {
+        font-family: Outfit;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        border: 2px solid #C1C1DE; 
+        padding-top: 60px; 
+        border-radius: 30px;
+    }
+    .social_media h2{
+        font-family: Outfit;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 30px;
+    }
+}
+
+
+/* for the mobile view */
+@media (max-width: 800px){
+    .container-fluid {
+        padding: 0;
+      }
+      
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .container {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .container img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    .first_img img{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .first_img h1{
+        margin-top: 24px;
+        color:#B1CFE3;
+        font-family: Outfit;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 31.5px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .forex_academy{
+            display: flex;
+            flex-direction: column-reverse; 
+            align-items: center;
+            margin-top: 20px;
+    }
+    .forex_academy p{
+        color: #B1CFE3;
+        font-family: Outfit;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 325px;
+        height: 63px;
+    }
+    .forex_academy img {
+        width: 291px;
+        height: 222px;
+        margin-top: 10px;
+        left: 26px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+    .our_principles p{
+        width: 500;
+        font-family: Outfit;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #B1CFE3;
+        margin-top: 20px;
+    }
+    .our_principles img{
+        width: 308px;
+        height: 198px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+    .helping_individuals{
+        display: flex;
+            flex-direction: column-reverse; 
+            align-items: center;
+            margin-top: 20px;
+    }
+    .helping_individuals p{
+        font-family: Outfit;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #B1CFE3;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .helping_individuals img{
+        width: 308px;
+        height: 198px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+    .passionate p{
+        width: 264px;
+        margin-left: 40px;
+        margin-top: 30px;
+        font-family: Outfit;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #B1CFE3;
+    }
+
+    .passionate img {
+        width: 307px;
+        height: 197px;
+        top: 1028px;
+        left: 26px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+
+    }
+    .our_mission h2 {
+        font-family: Outfit;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    .our_mission p {
+        display: flex;
+        font-family: Outfit;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        width: 343px;
+        height: 172px;
+        padding-top: 30px;
+        margin-left: 10px;
+        border: 1px solid #c1c1de;
+        border-radius: 20px;
+    }
+    .social_media h2{
+        font-family: Outfit;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 30px;
+    }
+    Navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        .me-auto .nav-link {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+        }
+      
+        .me-auto .nav-link svg {
+          width: 23px; 
+          height: 22px; 
+          top: 1712.86px; 
+        }
+        .instagram-icon {
+            background: linear-gradient(135deg, #833AB4, #FD1D1D, #F77737, #FDCF60); 
+            padding: 8px; 
+            border-radius: 50%; 
+          }
+          
+          .instagram-icon svg {
+            fill: white; 
+          }
+          .navbar-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+}
+
+
+

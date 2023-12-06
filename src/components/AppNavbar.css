@@ -1,0 +1,12 @@
+  .logo-img {
+    width: 21px;
+    height: 19px;
+    position: absolute;
+    margin-left: 50px;
+  }
+.bg-custom-color {
+  background-color: #191970; 
+}
+.bar{
+  margin-right: 30px;
+}

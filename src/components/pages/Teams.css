@@ -1,0 +1,105 @@
+@media (max-width:1600px) {
+    .head-teams-container h2{
+        font-family: Outfit;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: hsl(0, 0%, 100%);
+    }
+  
+  .team-members {
+    margin-left: 50px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid #ffffff;
+    width: 1200PX;
+    border-radius: 40PX;
+    background: linear-gradient(180deg, rgba(128, 133, 159, 0.68) 0%, rgba(128, 133, 159, 0) 100%),
+linear-gradient(0deg, #C1C1DE, #C1C1DE);
+  }
+  
+  .team-member-card {
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  
+  .member-photo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .team-members h3{
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #80859F;
+    margin-right: 200px;
+    margin-top: 20px;
+  }
+  .team-members p{
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: 80859f;
+    margin-right: 200px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+    .head-teams-container h2{
+        width: 265px;
+        height: 42px;
+        margin-top: 30px;
+        margin-left: 72px;
+        margin-bottom: 30px;
+        font-family: Outfit;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+    }
+    .team-members{
+        display: none;
+    }
+    .team-members img{
+        width: 90px;
+        height: 82px;
+        border-radius: 50%;
+    }
+    .team-members h3 {
+        font-family: Outfit;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 8px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #80859F;
+
+
+    }
+    .team-members p{
+        font-family: Outfit;
+        color: #80859F;
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 8px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}

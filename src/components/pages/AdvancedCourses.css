@@ -1,0 +1,127 @@
+.flex-container h1{
+    display: flex;
+    font-family: Inter;
+font-size: 140px;
+font-weight: 800;
+line-height: 169px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+/* Media query for mobile view */
+@media screen and (max-width: 767px) {
+.flex-container{
+    background: #270A76;
+}
+    .flex-container h1 {
+        display: flex;
+        font-size: 40px;
+        line-height: 60px; 
+        letter-spacing: 0.03em; 
+        text-align: center; 
+        color: #ffffff;
+    }
+    .flex-container p{
+        width: 250px;
+        height: 62px;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 15.5px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+    }
+    .flex-container .btn{
+        font-size: 1.1rem;
+        display: block;
+        border: 2px solid #9747FF;
+        background: linear-gradient(0deg, #9747FF, #9747FF),
+linear-gradient(0deg, rgba(151, 71, 255, 0), rgba(151, 71, 255, 0));
+        border-radius: 25px;
+        width: 200px;
+        height: 50px;
+    }
+    .flex-container .unlock_knowlege {
+        display: flex;
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 30.5px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 30px;
+    }
+.flex-container .unlock_knowlege_P    {
+        font-family: Calibri;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25.5px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .flex-container .unlock_knowlege .span{
+        color: #FC8D2E;
+    }
+}
+/* AdvancedCourses.css */
+
+/* Common styles for all screen sizes */
+.title {
+    font-size: 3rem;
+}
+
+.description {
+    font-size: 1.5rem;
+}
+
+.unlock_knowledge {
+    font-size: 2rem;
+}
+
+.unlock_knowledge_P {
+    font-size: 1.2rem;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 767px) {
+    /* Adjust font sizes for smaller screens */
+    .title {
+        font-size: 2.5rem;
+    }
+    
+    .description {
+        font-size: 1.2rem;
+    }
+    
+    .unlock_knowledge {
+        font-size: 1.8rem;
+    }
+    
+    .unlock_knowledge_P {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjust font sizes for even smaller screens if needed */
+    .title {
+        font-size: 2rem;
+    }
+    
+    .description {
+        font-size: 1rem;
+    }
+    
+    .unlock_knowledge {
+        font-size: 1.5rem;
+    }
+    
+    .unlock_knowledge_P {
+        font-size: 0.8rem;
+    }
+}
