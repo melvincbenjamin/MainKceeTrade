@@ -1,20 +1,23 @@
 import React from "react";
+import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
+import { FaTelegram, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import './About.css';
+import TeamMembers from './Teams';
 import Rectangle from '../images/Rectangle 19 (1).png';
 import Rectangle20 from '../images/Rectangle 20.png';
 import Rectangle21 from '../images/Rectangle 21.png';
 import Rectangle22 from '../images/Rectangle 22.png';
 import Rectangle23 from '../images/Rectangle 23.png';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './About.css';
-import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
-import { FaTelegram, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
-
 
 const About = () => {
     return (
-        <Container fluid className="about-container">
+        <Container 
+        fluid className="about-container"
+         style={{
+            backgroundColor: '#000235',
+        }}>
             <Row className="first-row">
-                <Col lg={12} className="first_img">
+                <Col lg={12} className="first_img container">
                     <img src={Rectangle} alt="rectangle" className="img-fluid" />
                     <h1>Who Are We.</h1>
                 </Col>
@@ -74,30 +77,31 @@ const About = () => {
                 <Col>
                     <Container className="social_media">
                         <h2>Our Social Handles.</h2>
-                    <div className="system-view">
-                    <Navbar>
-                        <div className="navbar-container text-center">
-                         <Nav className="me-auto">
-                            <Nav.Link href="https://t.me/tradingtimes01">
-                            <FaTelegram size={24} color="#0088cc " />
-                         </Nav.Link>
-                        <Nav.Link href="https://www.facebook.com/tradingtimes1">
-                            <FaFacebook size={24} color="#ffffff"/>
-                        </Nav.Link>
-                        <Nav.Link href="https://www.instagram.com/invites/contact/?i=1nxlitlixqbq1&utm_content=qt88oed" className="instagram-icon">
-                            <FaInstagram size={24}/>
-                        </Nav.Link>
-                        <Nav.Link href="https://x.com/trading_times1?t=lFLPg8mzsQWfgFv_uBlA6w&s=09">
-                            <FaTwitter size={24} color="#1da1f2" />
-                        </Nav.Link>
-                        <Nav.Link href="https://youtube.com/@TradingTimes1?si=SCDmXFSZvDpSZVNV">
-                            <FaYoutube size={24} color="#ff0000" />
-                        </Nav.Link>
-                </Nav>
-        </div>
-      </Navbar>
-    </div>
+                        <div className="system-view">
+                            <Navbar>
+                                <div className="navbar-container text-center">
+                                    <Nav className="me-auto">
+                                        <Nav.Link href="https://t.me/tradingtimes01">
+                                            <FaTelegram size={24} color="#0088cc " />
+                                        </Nav.Link>
+                                        <Nav.Link href="https://www.facebook.com/tradingtimes1">
+                                            <FaFacebook size={24} color="#ffffff"/>
+                                        </Nav.Link>
+                                        <Nav.Link href="https://www.instagram.com/invites/contact/?i=1nxlitlixqbq1&utm_content=qt88oed" className="instagram-icon">
+                                            <FaInstagram size={24}/>
+                                        </Nav.Link>
+                                        <Nav.Link href="https://x.com/trading_times1?t=lFLPg8mzsQWfgFv_uBlA6w&s=09">
+                                            <FaTwitter size={24} color="#1da1f2" />
+                                        </Nav.Link>
+                                        <Nav.Link href="https://youtube.com/@TradingTimes1?si=SCDmXFSZvDpSZVNV">
+                                            <FaYoutube size={24} color="#ff0000" />
+                                        </Nav.Link>
+                                    </Nav>
+                                </div>
+                            </Navbar>
+                        </div>
                     </Container>
+                    <TeamMembers />
                 </Col>
             </Row>
         </Container>

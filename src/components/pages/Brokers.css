@@ -1,0 +1,146 @@
+.flex-container {
+    background: #270A76;
+    width: 1440px;
+    height: 598px;
+}
+.custom-h1 {
+    margin-left: 100px;
+    font-family: Inter;
+    font-size: 130px;
+    font-weight: 800;
+    line-height: 157px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+.custom-p{
+    margin-bottom: 200px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    width: 557px;   
+    height: 129px;
+    margin-left: 180px;
+}
+
+.custom-button {
+    width: 253px;
+    height: 58px;
+    margin-bottom: 100px;
+    margin-left: 190px;
+    border-radius: 25px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    background: #9747FF;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.reputation {
+    width: 1215px;
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.diverse-range{
+    width: 1166px;
+
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.commitment {
+    width: 1111px;
+
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.dedicated {
+    width: 1049px;
+
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.exness{
+    width: 951px;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 20px;
+
+}
+.trade-with-exness{
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.custom-button2 {
+    width: 253px;
+    height: 58px;
+    margin-left: 20px;
+    border-radius: 25px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    background: #9747FF;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+@media (max-width: 768px){
+    .custom-h1{
+        font-size: 30px;
+        position: relative;
+    }
+    .custom-p{
+        font-size: 20px;
+    }
+    .reputation{
+        display: flex;
+        font-size: 18px;
+    }
+}

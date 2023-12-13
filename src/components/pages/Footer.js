@@ -13,7 +13,7 @@ const Footer = () => {
               fontSize: 20,
               fontWeight: 700,
               textAlign: 'center',
-              color: 'white'
+              color: 'white',
             }}>
             <p className="text-center">All Rights Reserved by <span className='trading'>Trading</span> Times.</p>
             <p className="text-center">© {currentYear} Trading Times</p>

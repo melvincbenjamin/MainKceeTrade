@@ -1,12 +1,14 @@
-@media (max-width: 1366px) {
+@media (max-width: 1400px) {
+    body{
+        background-color: #000235;
+    }
     .text-center{
         font-family: Outfit;
-font-size: 40px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: center;
-
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
     }
 }
 

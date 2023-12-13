@@ -1,24 +1,26 @@
-import './App.css';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import AppNavbar from './components/Navbar';
 import About from './components/pages/About';
 import Courses from './components/pages/Courses';
-//import TeamMembers from './components/pages/Teams';
-import AppNavbar from './components/Navbar';
-import AdvancedCourse from './components/pages/AdvancedCourses';
-
-
+import Brokers from './components/pages/Brokers';
+import ContactUs from './components/pages/ContactUs';
+import Mentorship from './components/pages/Mentorship';
+import FAQ from './components/pages/FAQ';
+//import Footer from './components/pages/Footer';
 function App() {
   return (
-    <div className="App">
+    <Router>
       <AppNavbar />
-      <AdvancedCourse />
-      <Router>
-        <Routes>
-          <Route exact path="/about" component={<About />} />
-          <Route exact path="/courses" component={<Courses />} />
-        </Routes>
-      </Router>
-    </div>
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/brokers" element={<Brokers />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/mentorship" element={<Mentorship />} />
+        <Route path="/faq" element={<FAQ />} />
+      </Routes>
+    </Router>    
   );
 }
 
