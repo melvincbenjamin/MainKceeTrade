@@ -7,7 +7,7 @@ import Brokers from './components/pages/Brokers';
 import ContactUs from './components/pages/ContactUs';
 import Mentorship from './components/pages/Mentorship';
 import FAQ from './components/pages/FAQ';
-//import Footer from './components/pages/Footer';
+import Footer from './components/pages/Footer';
 function App() {
   return (
     <Router>
@@ -20,6 +20,7 @@ function App() {
         <Route path="/mentorship" element={<Mentorship />} />
         <Route path="/faq" element={<FAQ />} />
       </Routes>
+      <Footer />
     </Router>    
   );
 }

@@ -5,7 +5,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear(); 
 
   return (
-    <footer className="footer">
+    <footer className="footer" style={{
+      background: '#000235'
+    }}>
       <Container>
         <Row>
           <Col style={{

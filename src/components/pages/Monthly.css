@@ -1,0 +1,63 @@
+.monthly-plans h2 {
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 85px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.first-pic img{
+    width: 478px;
+    height: 341px;
+    position: relative;
+    left: 172px;
+}
+.month-mentorship {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 173px;
+}
+.full-access {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    width: 477px;
+    position: relative;
+    left: 173px;
+}
+.leave-a-rating{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B1cfe3;
+    width: 83px;
+    position: relative;
+    left: 170px;
+}
+.prize{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    width: 58px;
+    position: relative;
+    left: 168px;
+}

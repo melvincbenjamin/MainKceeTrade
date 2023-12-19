@@ -3,7 +3,7 @@ import './Courses.css';
 import removable from '../images/3-removable.png';
 const Courses = () => {
     return (
-        <div container-fluid>
+        <div className='container-fluid' style={{ background: '#000235'}}>
             <div className='row'>
                <div className='col-lg-12 master'>
                 <p className='textStyleLeft'>.....</p>
